@@ -18,20 +18,14 @@ if (len(latest_patch) > 0):
     pages_to_hide = gv.pages_list.copy()
     count = 0
     for patch in gv.pages_list:
-        print(f"Latest patch: {latest_patch}\nChecking patch: {patch}")
         if latest_patch not in patch:
-            print(f"Not found. Removing {patch} from Hide List")
             pages_to_hide.remove(patch)
             count += 1
         else:
-            print("Found. Ending Operation")
             pages_to_hide.remove(patch)
             if (".5" in latest_patch):
                 pages_to_hide.pop(0)
             break
-        
-        
-    print("Pages to hide:", pages_to_hide)
     hide_pages(pages_to_hide)
 else:
     hide_pages([])

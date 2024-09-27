@@ -6,7 +6,6 @@ name = "Home"
 path = "pages/1_A_Realm_Reborn_(2.0).py"
 name = "A Realm Reborn (2.0)"
 
-
 [[pages]]
 path = "pages/2_A_Realm_Awoken_(2.1).py"
 name = "A Realm Awoken (2.1)"
@@ -30,3 +29,7 @@ name = "Before the Fall Part 1 (2.5)"
 [[pages]]
 path = "pages/6_Before_the_Fall_Part_2_(2.55).py"
 name = "Before the Fall Part 2 (2.55)"
+
+[[pages]]
+path = "pages/7_Heavensward_(3.0).py"
+name = "Heavensward (3.0)"
