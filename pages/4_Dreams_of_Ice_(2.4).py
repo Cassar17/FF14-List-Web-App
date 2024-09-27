@@ -4,7 +4,7 @@ import global_vars as gv
 col1, col2 = st.columns(2)
 
 if (not gv.show_images):
-    st.image(r"assets\KeyArts\Widescreen\2.4.jpg")
+    st.image("assets/KeyArts/Widescreen/2.4.jpg")
 
 
 
