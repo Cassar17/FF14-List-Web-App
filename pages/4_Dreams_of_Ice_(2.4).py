@@ -1,8 +1,6 @@
 import streamlit as st
 import global_vars as gv
 
-col1, col2 = st.columns(2)
-
 if (not gv.show_images):
     st.image("assets/KeyArts/Widescreen/2.4.jpg")
 
@@ -13,7 +11,7 @@ st.checkbox("Traitor in the Midst - Let Us Cling Together")
 st.divider()
 st.subheader("Dungeons:")
 st.markdown("#### Sastasha (Hard)")
-st.image(r"assets\Dungeon.png")
+st.image("assets/Dungeon.png")
 st.checkbox("It's Definitely Pirates")
 st.markdown(
 """ 
@@ -27,7 +25,7 @@ st.markdown(
 
 #st.divider()
 st.markdown("#### The Sunkern Temple of Qarn (Hard)")
-st.image(r"assets\Dungeon.png")
+st.image("assets/Dungeon.png")
 st.checkbox("The Wrath of Qarn")
 st.markdown(
 """ 
@@ -41,7 +39,7 @@ st.markdown(
 st.divider()
 st.subheader("Raid:")
 st.markdown("#### The Final Coil of Bahamut")
-st.image(r"assets\Raid.png")
+st.image("assets/Raid.png")
 st.checkbox("Fragments of Truth - Alisaie's Path")
 st.markdown(
 """ 
