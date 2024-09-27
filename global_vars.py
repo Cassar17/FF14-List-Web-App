@@ -1,4 +1,4 @@
 global show_images
 
 
-show_images = True
+show_images = False
