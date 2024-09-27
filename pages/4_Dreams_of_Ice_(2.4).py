@@ -1,7 +1,7 @@
 import streamlit as st
 import global_vars as gv
 
-if (not gv.show_images):
+if (not gv.hide_images):
     st.image("assets/KeyArts/Widescreen/2.4.jpg")
 
 

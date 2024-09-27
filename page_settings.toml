@@ -1,0 +1,32 @@
+[[pages]]
+path = "Home.py"
+name = "Home"
+
+[[pages]]
+path = "pages/1_A_Realm_Reborn_(2.0).py"
+name = "A Realm Reborn (2.0)"
+
+
+[[pages]]
+path = "pages/2_A_Realm_Awoken_(2.1).py"
+name = "A Realm Awoken (2.1)"
+
+[[pages]]
+path = "pages/3_Through_the_Maelstorm.py"
+name = "Through the Maelstrom (2.2)"
+
+[[pages]]
+path = "pages/3_Defenders_of_Eorzea_(2.3).py"
+name = "Defenders of Eorzea (2.3)"
+
+[[pages]]
+path = "pages/4_Dreams_of_Ice_(2.4).py"
+name = "Dreams of Ice (2.4)"
+
+[[pages]]
+path = "pages/5_Before_the_Fall_Part_1 (2.5).py"
+name = "Before the Fall Part 1 (2.5)"
+
+[[pages]]
+path = "pages/6_Before_the_Fall_Part_2_(2.55).py"
+name = "Before the Fall Part 2 (2.55)"

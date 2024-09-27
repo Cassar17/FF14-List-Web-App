@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("A Realm Reborn")
+st.sidebar.title("A Realm Reborn")
