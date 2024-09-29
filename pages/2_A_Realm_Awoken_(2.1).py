@@ -53,7 +53,7 @@ st.markdown(
 >
 > Quest giver: Outlandish Man
 >
-> Questline: Crystal Tower
+> Questline: The Crystal Tower
 """
 )
 st.divider()
