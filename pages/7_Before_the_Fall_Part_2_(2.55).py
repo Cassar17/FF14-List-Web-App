@@ -1,8 +1,6 @@
 import streamlit as st
 import global_vars as gv
 
-st.title("Before the Fall Part 2")
-
 if (not gv.hide_images):
     st.image("assets/KeyArts/Widescreen/2.5.jpg")
 

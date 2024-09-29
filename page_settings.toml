@@ -11,25 +11,49 @@ path = "pages/2_A_Realm_Awoken_(2.1).py"
 name = "A Realm Awoken (2.1)"
 
 [[pages]]
-path = "pages/3_Through_the_Maelstorm.py"
+path = "pages/3_Through_the_Maelstorm_(2.2).py"
 name = "Through the Maelstrom (2.2)"
 
 [[pages]]
-path = "pages/3_Defenders_of_Eorzea_(2.3).py"
+path = "pages/4_Defenders_of_Eorzea_(2.3).py"
 name = "Defenders of Eorzea (2.3)"
 
 [[pages]]
-path = "pages/4_Dreams_of_Ice_(2.4).py"
+path = "pages/5_Dreams_of_Ice_(2.4).py"
 name = "Dreams of Ice (2.4)"
 
 [[pages]]
-path = "pages/5_Before_the_Fall_Part_1 (2.5).py"
+path = "pages/6_Before_the_Fall_Part_1_(2.5).py"
 name = "Before the Fall Part 1 (2.5)"
 
 [[pages]]
-path = "pages/6_Before_the_Fall_Part_2_(2.55).py"
+path = "pages/7_Before_the_Fall_Part_2_(2.55).py"
 name = "Before the Fall Part 2 (2.55)"
 
 [[pages]]
-path = "pages/7_Heavensward_(3.0).py"
+path = "pages/8_Heavensward_(3.0).py"
 name = "Heavensward (3.0)"
+
+[[pages]]
+path = "pages/9_As_Goes_Light_So_Goes_Darkness_(3.1).py"
+name = "As Goes Light, So Goes Darkness (3.1)"
+
+[[pages]]
+path = "pages/10_The_Gears_of_Change_(3.2).py"
+name = "The Gears of Change (3.2)"
+
+[[pages]]
+path = "pages/11_Revenge_of_the_Horde_(3.3).py"
+name = "Revenge of the Horde (3.3)"
+
+[[pages]]
+path = "pages/12_Soul_Surrender_(3.4).py"
+name = "Soul Surrender (3.4)"
+
+[[pages]]
+path = "pages/13_The_Far_Edge_of_Fate_Part_1_(3.5).py"
+name = "The Far Edge of Fate Part 1 (3.5)"
+
+[[pages]]
+path = "pages/14_The_Far_Edge_of_Fate_Part_2_(3.56).py"
+name = "The Far Edge of Fate Part 2 (3.56)"

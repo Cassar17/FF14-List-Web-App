@@ -21,7 +21,7 @@ st.markdown(
 > Obs: This quest is the first in a questline. Although this is a blue quest, the following quests in this line are not, but they serve as the regional quests for Western Highlands.
 """
 )
-st.checkbox("Sounding Out the Amphitheatre - Heavensward")
+st.checkbox("Camp of the Convictors - Heavensward")
 
 st.divider()
 

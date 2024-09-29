@@ -6,12 +6,14 @@ from st_pages import hide_pages
 st.title("The List")
 st.subheader("Config")
 latest_patch = []
+patch_list = ["2.0","2.1","2.2","2.3","2.4","2.5","3.0","3.1","3.2","3.3","3.4","3.5","4.0","4.1","4.2","4.3","4.4","4.5","5.0","5.1","5.2","5.3","5.4","5.5","6.0","6.1","6.2","6.3","6.4","6.5","7.0"]
 
 
 gv.hide_images = st.checkbox("Hide patch key arts", value=gv.hide_images)
 gv.hide_titles = st.checkbox("Hide future patch titles", value=gv.hide_titles)
 if (gv.hide_titles):
-    latest_patch = st.selectbox("Select your patch...",["2.0","2.1","2.2","2.3","2.4","2.5","3.0","3.1","3.2","3.3","3.4","3.5","4.0","4.1","4.2","4.3","4.4","4.5","5.0","5.1","5.2","5.3","5.4","5.5","6.0","6.1","6.2","6.3","6.4","6.5","7.0"])
+    latest_patch = st.selectbox("Select your patch...",patch_list , gv.current_patch_index)
+    gv.current_patch_index = patch_list.index(latest_patch)
 
 pages_to_hide = []
 if (len(latest_patch) > 0):
